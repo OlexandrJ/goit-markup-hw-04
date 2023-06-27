@@ -438,3 +438,27 @@ img {
     background-color: #404BBF;
     border: 1px solid transparent;
 }
+
+.clients-list {
+display: flex;
+justify-content: center;
+gap: 24px;
+}
+
+.clients-item {
+
+}
+
+.clietts-link {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 168px;
+    height: 88px;
+border-radius: 4px;
+    border: 1px solid var(--lightslate, #8E8F99);
+}
+
+.clients-icon {
+
+}
