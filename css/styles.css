@@ -252,6 +252,18 @@ img {
     width: 264px;
 }
 
+.advantages-item-icon {
+    fill: none;
+    stroke: #2E2F42;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: width: 264px; height: 112px; color: var(--cloud, #F4F4FD);
+    border-radius: 4px;
+    background: var(--cloud, #F4F4FD);
+}
+
 .advantages-title {
     font-weight: 500;
     font-size: 20px;
