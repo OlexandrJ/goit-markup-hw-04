@@ -310,8 +310,6 @@ img {
         gap: 24px;
 }
 
-.doing-item {}
-
 .team {
     background-color: #F4F4FD;
     padding-top: 120px;
@@ -377,13 +375,13 @@ img {
 }
 
 .team-link {
-display: flex;
-justify-content: center;
-align-items: center;
-width: 40px;
-height: 40px;
-border-radius: 50%;
-background-color: #4D5AE5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
 }
 
 .footer {
@@ -401,6 +399,31 @@ background-color: #4D5AE5;
         letter-spacing: 0.02em;
         color: #F4F4FD;
         width: 264px;
+}
+
+.footer-social {
+
+}
+
+.footer-icon {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.footer-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+}
+
+.footer-link:hover
+.footer-link:active {
+color: #31D0AA;
 }
 
 .portfolio {
