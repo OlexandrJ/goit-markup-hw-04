@@ -462,7 +462,9 @@ img {
 }
 
 .social-foot {
-    padding-bottom: 16px;
+    font-weight: 500
+    color: #FFFFFF;
+    margin-bottom: 16px;
 }
 
 .footer-description {
@@ -492,7 +494,8 @@ img {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-link:hover {
+.footer-link:hover
+.footer-link:active {
     background-color: #31D0AA;
     transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
