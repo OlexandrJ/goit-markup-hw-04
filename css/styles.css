@@ -413,17 +413,25 @@ img {
     margin-right: 120рх;
 }
 
-.footer-description {
-        font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #F4F4FD;
-        width: 264px;
+.footer-social {
+    margin-left: 120px;
 }
 
-.footer-social {
+.social-foot {
+    padding-bottom: 16px;
+}
+
+.footer-description {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+    width: 264px;
+}
+
+.footer-list {
     display: flex;
     gap: 16px;
 }
@@ -436,11 +444,12 @@ img {
     height: 40px;
     border-radius: 50%;
     background-color: #4D5AE5;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-link:hover
-.footer-link:active {
-color: #31D0AA;
+.footer-link:hover {
+    background-color: #31D0AA;
 }
 
 .portfolio {
@@ -556,12 +565,13 @@ fill: #404BBF;
     width: 100%;
     height: 100%;
     background: var(--navyblue-modal, rgba(46, 47, 66, 0.40));
-
-    transition: opacity 250ms ease-out,  visibility 250ms;
 }
 
 .backdrop.is-hidden {
     display: none;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
 }
 
 .modal {
