@@ -133,6 +133,8 @@ img {
 .header-link:hover,
 .header-link:focus {
         color: #404bbf;
+        transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link.active::after {
@@ -169,6 +171,8 @@ img {
 .adress-link:hover,
 .adress-link:focus {
     color: #404BBF;
+    transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section {}
@@ -226,6 +230,8 @@ img {
 .hero-btn:hover,
 .hero-btn:focus {
     background: #404BBF;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-title {
@@ -450,6 +456,8 @@ img {
 
 .footer-link:hover {
     background-color: #31D0AA;
+    transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio {
@@ -504,6 +512,8 @@ img {
     color: var(--bg-white);
     background-color: #404BBF;
     border: 1px solid transparent;
+    transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-but:focus {
     color: var(--bg-white);
@@ -551,10 +561,14 @@ border: 1px solid var(--lightslate, #8E8F99);
 
 .clietts-link:hover {
     border-color: #404BBF;
+    transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clietts-link:hover .clients-icon {
 fill: #404BBF;
+transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop {
