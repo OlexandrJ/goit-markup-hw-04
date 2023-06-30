@@ -182,8 +182,6 @@ img {
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.section {}
-
 .container {
     width: 1158px;
     margin-left: auto;
