@@ -441,7 +441,7 @@ img {
 }
 
 .team-link:hover,
-.team-link:active {
+.team-link:focus {
     background-color: #404bbf;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -511,7 +511,7 @@ img {
 }
 
 .footer-link:hover,
-.footer-link:active {
+.footer-link:focus {
     background-color: #31D0AA;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
